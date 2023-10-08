@@ -5,11 +5,34 @@ Bem-vindo ao guia para iniciantes em automação web com Ruby! Este projeto foi 
 ### Setup necessário ###
 
 
-* Instalar o playwright
+* Instalar o ruby
 
   ```
-  npm init playwright@latest
+  Certifique-se de que o Ruby esteja instalado em seu sistema. Você pode verificar a instalação executando o comando ruby -v no terminal.
+  Se o Ruby não estiver instalado, você pode baixá-lo em ruby-lang.org.
   ```
+
+* Gemas (Gems)
+
+  ```
+  Precisaremos de algumas gemas (bibliotecas Ruby) para este projeto. Use o comando gem install selenium-webdriver para instalar a biblioteca Selenium WebDriver.
+  ```
+
+* WebDriver
+
+  ```
+  Baixe o driver correspondente ao navegador que deseja automatizar. Por exemplo, para o Google Chrome, você precisará do ChromeDriver. Certifique-se de adicionar o caminho do driver ao sistema ou ao PATH do sistema.
+
+  Caso não tenha idéia de como fazer isto segue este material do próprio medium de um colega Wagner Costa ensinando a fazer: https://medium.com/@wcaquino/configurando-drivers-do-selenium-no-linux-windows-e-osx-1fed9651b200
+  ```
+
+* Editor de Código
+
+  ```
+  Use um editor de código de sua preferência. Visual Studio Code, Sublime Text e Atom são algumas opções populares.
+  ```  
+
+  
 
 ### Estrutura do projeto ###
 
